@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="@color/th_white"
+    tools:context="com.example.hsuanyen.my_sd.Register">
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/map_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+
+                android:background="#00000000"
+                android:text="@string/back_btn"
+                android:textColor="@color/th_white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/map_show_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/th_blue"
+            android:text="@string/base_name_et"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/base_name_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/secret_base_name"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/new_base_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/logg"
+                android:textAllCaps="false"
+                android:text="@string/secret_list_create_btn" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearlayout3"
+            android:layout_weight="1">
+
+        </fragment>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/map_btn_style"
+                android:src="@drawable/flag2" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_btn_style"
+                android:src="@drawable/refix" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+

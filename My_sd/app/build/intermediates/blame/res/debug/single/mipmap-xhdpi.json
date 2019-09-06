@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Android\\My_sd\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Android\\My_sd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\My_sd\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_music.png",
+        "source": "C:\\Android\\My_sd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_music.png"
+    },
+    {
+        "merged": "C:\\Android\\My_sd\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Android\\My_sd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\My_sd\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_secret.png",
+        "source": "C:\\Android\\My_sd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_secret.png"
+    }
+]

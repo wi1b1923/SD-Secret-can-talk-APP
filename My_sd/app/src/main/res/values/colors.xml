@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31405B</color>
+    <color name="colorPrimaryDark">#31405B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#FFFF77</color>
+    <color name="aa">#EDF3F8</color>
+    <color name="ab">#C7DEED</color>
+    <color name="ac">#88B7C9</color>
+    <color name="ad">#516489</color>
+    <color name="ae">#8B7991</color>
+    <color name="af">#E0BEC7</color>
+    <color name="green">#62EE6B</color>
+    <color name="th_green">#5CDB96</color>
+    <color name="th_blue">#0E3677</color>
+    <color name="th_white">#EEF5DF</color>
+    <color name="br">#D98E4F</color>
+    <color name="aab">#A54D49</color>
+    <color name="th_gr">#6E6863</color>
+</resources>

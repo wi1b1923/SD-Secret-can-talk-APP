@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="#99BBFF"
+    tools:context="com.example.hsuanyen.my_sd.Logged_in">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#99FF99" />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Register Here"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_btn_style"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pic"
+        android:gravity="center"
+        android:hint="密碼"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/pic2"
+        android:gravity="center"
+
+        android:hint="使用者名稱" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:text="可以說的秘密"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
+
+

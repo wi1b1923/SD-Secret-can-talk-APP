@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hsuanyen.my_sd.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#007799"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/title_secret"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <LinearLayout
+            android:id="@+id/create_pg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ScrollView
+                android:id="@+id/scrollview2"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:text="在這裡你可以新增秘密" />
+
+                    <TextView
+                        android:id="@+id/tv_reci"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/tv_des"
+                        android:text="收件人" />
+
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/tv_reci"
+                        android:text="電子郵件" />
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/tv_email"
+                        android:text="連絡電話" />
+
+                    <TextView
+                        android:id="@+id/tv_mytext"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/tv_phone"
+                        android:text="秘密內容" />
+
+                    <EditText
+                        android:id="@+id/recipient_ed"
+                        android:hint="請輸入收件人姓名"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_reci"
+                        android:layout_toRightOf="@+id/tv_reci"
+                        android:layout_alignLeft="@+id/email_ed"
+                        android:ems="10"
+                        android:background="#FFFFFF"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/email_ed"
+                        android:hint="請輸入收件人e-mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/tv_email"
+                        android:layout_alignBottom="@+id/tv_email"
+                        android:ems="10"
+                        android:background="#FFFFFF"
+                        android:inputType="textEmailAddress" />
+
+                    <EditText
+                        android:id="@+id/phone_ed"
+                        android:hint="請輸入收件人電話"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/tv_phone"
+                        android:background="#FFFFFF"
+                        android:layout_alignBottom="@+id/tv_phone"
+                        android:ems="10"
+                        android:inputType="phone" />
+
+                    <EditText
+                        android:id="@+id/mytext_ed"
+                        android:hint="請輸入訊息內容"
+                        android:singleLine="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:layout_marginLeft="20dp"
+                        android:layout_below="@+id/tv_mytext"
+                        android:ems="10"
+
+                        android:minLines="1"
+                        android:inputType="textMultiLine" />
+
+                    <Button
+                        android:id="@+id/create_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="270dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_weight="1"
+                        android:layout_below="@+id/mytext_ed"
+                        android:text="新增" />
+                </RelativeLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/base_pg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/open_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text="新增我的秘密基地" />
+
+            <ScrollView
+                android:id="@+id/scrollview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/mybase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_pg"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_pg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/mytext"
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#5599FF"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>

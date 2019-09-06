@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="@color/th_green"
+    tools:context="com.example.hsuanyen.my_sd.Logged_in">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/th_white" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_btn_style"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Login" />
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/bLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:background="@drawable/register_btn_style"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/pic2"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pic"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:nestedScrollingEnabled="true" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="Secret Can Talk"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="3"
+        android:text="Keep the secret, stay for a good time"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>
+
+

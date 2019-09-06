@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ac"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/ad"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="@string/back_btn"
+                android:textColor="@color/th_white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/th_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about_show_tv"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/how_use"
+            android:textColor="@color/th_blue"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/ins_text"
+        android:textColor="@color/th_blue"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/use_btn_style"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/secret_base"
+            android:textColor="@color/ad"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/use_btn_style"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/ins_btn02"
+            android:textColor="@color/ad"
+            android:textAllCaps="false"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/use_btn_style"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/ins_btn03"
+            android:textColor="@color/ad"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instru01" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="191dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/use_btn_tv_style"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/scre03" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instru02" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="191dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/use_btn_tv_style"
+                    android:src="@drawable/scre01" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="20dp"
+                    android:text="@string/base_instru"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instru03" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="191dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/use_btn_tv_style"
+                    android:src="@drawable/scre04" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instru04" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="191dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/use_btn_tv_style"
+                    android:src="@drawable/scre05" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/secret_instru"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instru05" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_height="191dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/use_btn_tv_style"
+                    android:src="@drawable/scre02" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/dead_instru"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

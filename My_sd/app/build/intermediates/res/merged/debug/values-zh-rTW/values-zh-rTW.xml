@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="about">關於可以說的秘密</string>
+    <string name="already">已於</string>
+    <string name="app_name">可以說的秘密</string>
+    <string name="back_btn">返回</string>
+    <string name="base_instru">擁有秘密基地後，便可在撰寫秘密時選擇綁定，這樣收件人便會收到一封能夠前往「探索秘密」頁面的信件，而不會只是得到單純的文字內容。</string>
+    <string name="base_name_et">為你的秘密基地命名</string>
+    <string name="base_pg_open_map">新增我的秘密基地</string>
+    <string name="change">變更</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安裝"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的裝置並未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"取得 Google Play 服務"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 服務發生錯誤"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」無法存取 Google Play 服務，請再試一次。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的裝置不支援 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必須更新 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」所需的 Google Play 服務正在更新。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必須使用新版 Google Play 服務。該服務稍後就會自動更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手機上開啟"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
+    <string name="dead_instru">死亡判定是以使用者最後一次登入時間為基準，當使用者超過兩個月未登入時，系統便會寄出一封驗證信件，信中會附上一個網址提供給使用者點擊更新最後登入時間，若一個月內沒有登入系統或是點擊該網址更新狀態，則會將所有設為死亡後發送的秘密全部寄出。</string>
+    <string name="died_away">死亡判定後再發送(遺書)</string>
+    <string name="died_to">死亡後發送</string>
+    <string name="how_use">使用說明</string>
+    <string name="ins_btn02">撰寫秘密</string>
+    <string name="ins_btn03">遺書功能</string>
+    <string name="ins_text">「可以說的秘密」能夠幫助人們將心中想說的話在合適的時機送出，不留下遺憾</string>
+    <string name="instru01">建立新基地</string>
+    <string name="instru02">可自由點選地圖上任意位置標記</string>
+    <string name="instru03">填寫欄位資訊</string>
+    <string name="instru04">可選擇是否綁定秘密基地</string>
+    <string name="instru05">可勾選死亡判定後再發送，將此則秘密設為遺書</string>
+    <string name="ispublished_n">等待寄出</string>
+    <string name="ispublished_y">已寄出</string>
+    <string name="lan_text">語言</string>
+    <string name="new_base_btn">確定新增</string>
+    <string name="no_base">無設定</string>
+    <string name="other">其他</string>
+    <string name="reci_imfor">收件人資訊</string>
+    <string name="register_textView3">註冊會員資料</string>
+    <string msgid="368094699078615544" name="s1">"儲存圖片"</string>
+    <string msgid="4550830452390689489" name="s2">"要允許廣告將圖片儲存在相片庫中嗎？"</string>
+    <string msgid="2435407834265420668" name="s3">"接受"</string>
+    <string msgid="9167523597401839819" name="s4">"拒絕"</string>
+    <string msgid="1566682516266724847" name="s5">"建立日曆活動"</string>
+    <string msgid="5996672174517137271" name="s6">"要允許廣告建立日曆活動嗎？"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string name="secret_base">秘密基地</string>
+    <string name="secret_base_name">秘密基地名稱</string>
+    <string name="secret_instru">不管有沒有秘密基地，都可以新增秘密訊息，設定秘密基地能夠讓秘密的接收變得更加有趣。</string>
+    <string name="secret_list_create_btn">新增</string>
+    <string name="secret_list_email_ed_hint">請輸入收件人e-mail</string>
+    <string name="secret_list_mytext_ed_hint">請輸入訊息內容</string>
+    <string name="secret_list_phone_ed_hint">請輸入收件人電話</string>
+    <string name="secret_list_recipient_ed_hint">請輸入收件人姓名</string>
+    <string name="secret_list_tv_des">在這裡你可以新增秘密</string>
+    <string name="secret_list_tv_email">電子郵件</string>
+    <string name="secret_list_tv_mytext">秘密內容</string>
+    <string name="secret_list_tv_phone">聯絡電話</string>
+    <string name="secret_list_tv_reci">收件人</string>
+    <string name="secret_title_ed">秘密標題名稱</string>
+    <string name="send_choose">發送方式</string>
+    <string name="setting_pg_logout_btn">登出</string>
+    <string name="setting_pg_textView5">功能設定</string>
+    <string name="setting_pg_textView6">系統</string>
+    <string name="setting_pg_textView7">關於可以說的秘密</string>
+    <string name="setting_pg_toggle_btn_text_off">背景音樂關閉</string>
+    <string name="setting_pg_toggle_btn_text_on">背景音樂開啟</string>
+    <string name="setting_pg_tv_account_now">使用者： </string>
+    <string name="status">狀態</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="team">開發團隊︰</string>
+    <string name="title_activity_maps">地圖</string>
+    <string name="title_base">我的秘密基地</string>
+    <string name="title_create">撰寫新的秘密</string>
+    <string name="title_secret">我的秘密清單</string>
+    <string name="title_setting">設定</string>
+    <string name="to">發送</string>
+    <string name="to2">至</string>
+    <string name="toast_first_use_message">請先註冊/登入一個帳號</string>
+    <string name="toast_login_fail1">登入失敗...</string>
+    <string name="toast_login_fail2">帳號或密碼輸入錯誤！</string>
+    <string name="toast_login_fail3">未知錯誤發生</string>
+    <string name="toast_logout">成功登出帳戶</string>
+    <string name="toast_register_fail1">註冊失敗...</string>
+    <string name="toast_register_fail2">此帳號已有人註冊過！</string>
+    <string name="toast_register_success1">註冊成功！可以使用此帳戶</string>
+    <string name="toast_register_success2">開始登入了！</string>
+    <string name="toast_welcome">歡迎回來</string>
+    <string name="tv_date">發送日期</string>
+    <string name="tv_secret_title">標題</string>
+    <string name="tv_time">發送時間</string>
+    <string name="version">版本：</string>
+    <string name="version_new">1. 地圖美化並新增功能按鈕\n    隱藏/顯示基地按鈕與重新定位鈕\n2.設定頁面美化\n    增加關於我們、使用說明、網頁版連結\n\n我們會持續增加新功能，並改進系統穩定性，請繼續支持與愛護</string>
+    <string name="web">網頁版</string>
+</resources>

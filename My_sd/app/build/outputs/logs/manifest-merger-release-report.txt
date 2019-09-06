@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:11:5-83
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:11:22-64
+application
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:12:5-51:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\641b1147190265e256df59742eab9f5188d2dfd8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\ff3843c0a07a3dc68cfa3ab63cf60d86c6f0defc\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\cee95b61f955095e9abf6b2730f5f4ae48f964b1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\38b84cc215e09b54bda6819eb3059df3c948a355\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\2f1c3533551b9419d53efd57c662acf5068eb25e\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\cabaf8c69f8f4dda0b6c994caac40dd44568b9d0\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\fe7ffa3fec9e35a4802381dca8dbc95f6ad19de2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eca9d1766c051229c83018c60d92e71605f2bc88\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eff7245c8e283dbfa1d5fa6fb9b7604eb0176026\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\3c9651d9e201ca8e9dced6ae4a520c03a047b128\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\958c9161339897e087a9494b579a7b34234a59fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\794a7de7ee3bed1f28e5e35a841eb020b8907a59\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hsuan Yen\.android\build-cache\41b1138a1f075e10363e0a3d53dc3296dbc4faba\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:17:9-35
+	android:roundIcon
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:16:9-54
+	android:allowBackup
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.example.hsuanyen.my_sd.MainActivity
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:19:9-23:20
+	android:label
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:20:13-41
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:32:9-34:55
+	android:value
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:33:13-58
+activity#com.example.hsuanyen.my_sd.MapsActivity
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:36:9-38:59
+	android:label
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:37:13-41
+activity#com.example.hsuanyen.my_sd.Register
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:39:9-42:20
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:40:13-37
+activity#com.example.hsuanyen.my_sd.Logged_in
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:44:9-50:20
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:44:19-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\Android\My_sd\app\src\main\AndroidManifest.xml:48:27-74
+uses-sdk
+INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\641b1147190265e256df59742eab9f5188d2dfd8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\ff3843c0a07a3dc68cfa3ab63cf60d86c6f0defc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\4c6d31c811884b48246123d8b991ff9aeb88e5e4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\cee95b61f955095e9abf6b2730f5f4ae48f964b1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\38b84cc215e09b54bda6819eb3059df3c948a355\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\2f1c3533551b9419d53efd57c662acf5068eb25e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\cabaf8c69f8f4dda0b6c994caac40dd44568b9d0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\fe7ffa3fec9e35a4802381dca8dbc95f6ad19de2\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eca9d1766c051229c83018c60d92e71605f2bc88\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eff7245c8e283dbfa1d5fa6fb9b7604eb0176026\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\3c9651d9e201ca8e9dced6ae4a520c03a047b128\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\958c9161339897e087a9494b579a7b34234a59fe\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\794a7de7ee3bed1f28e5e35a841eb020b8907a59\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hsuan Yen\.android\build-cache\41b1138a1f075e10363e0a3d53dc3296dbc4faba\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My_sd\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\641b1147190265e256df59742eab9f5188d2dfd8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\ff3843c0a07a3dc68cfa3ab63cf60d86c6f0defc\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\4c6d31c811884b48246123d8b991ff9aeb88e5e4\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\cee95b61f955095e9abf6b2730f5f4ae48f964b1\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\38b84cc215e09b54bda6819eb3059df3c948a355\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\fe7ffa3fec9e35a4802381dca8dbc95f6ad19de2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eca9d1766c051229c83018c60d92e71605f2bc88\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\eff7245c8e283dbfa1d5fa6fb9b7604eb0176026\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\3c9651d9e201ca8e9dced6ae4a520c03a047b128\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\958c9161339897e087a9494b579a7b34234a59fe\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\794a7de7ee3bed1f28e5e35a841eb020b8907a59\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Hsuan Yen\.android\build-cache\59dd416319b56fff7d963a18e9d01f792a287479\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\f047b1c3bbc3c8a71326f597886af27acf9844ef\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\af69ab54f96016160e282d11f78a948ca574bc5c\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\cabaf8c69f8f4dda0b6c994caac40dd44568b9d0\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\cabaf8c69f8f4dda0b6c994caac40dd44568b9d0\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Hsuan Yen\.android\build-cache\cabaf8c69f8f4dda0b6c994caac40dd44568b9d0\output\AndroidManifest.xml:20:20-65

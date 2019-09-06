@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--陰影部分-->
+    <!--設置陰影左邊跟上面的offset-->
+    <item
+        android:left="2dp"
+        android:top="2dp">
+        <shape
+            android:shape="oval">
+            <!--設定陰影顏色-->
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+            <solid
+                android:color="#56000000" />
+            <!--設定圓角的尺寸-->
+        </shape>
+    </item>
+    <!--物件部分-->
+    <!--設置物件右邊跟下面的offset-->
+    <item
+        android:bottom="2dp"
+        android:right="2dp">
+        <shape
+            android:shape="oval">
+            <!--設定形狀的顏色-->
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+            <solid
+                android:color="#FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>
